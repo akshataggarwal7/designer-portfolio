@@ -215,3 +215,22 @@ a:hover{
 	padding: 0.8rem;
 	color: #FFFFE0;
 }
+.last-section{
+	opacity: 0;
+	transform: translateY(20px);
+	transition: 0.9s all ease-in-out;
+}
+
+.appear-text{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.mid-section{
+	opacity: 0;
+	transform: translateY(20px);
+	transition: 0.8s all ease-in-out;
+}
+.appear-midSection{
+	opacity: 1;
+	transform: translateY(0px);
+}
